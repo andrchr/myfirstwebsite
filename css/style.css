@@ -13,6 +13,9 @@
     justify-content: space-between;
     
 }
+.headerpart2 {
+    flex-wrap: wrap;
+}
 
 .chest {
     background-color: white;
@@ -31,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: xx-small;
+    font-size: small;
     color: white;
     padding: 16px;
 }
@@ -101,9 +104,7 @@ button {
 
 
 
-.promo {
-    display: flex;
-}
+
 
 .abdo {
     display: flex;
@@ -114,11 +115,76 @@ button {
 .proverb {
     font-size: 36px;
     font-style: italic;
-    
+    color:#1f2937;
 }
 .writer {
     display: flex;
     justify-content: end;
     font-weight: bold;
     font-size: medium;
+   
+}
+
+.promo {
+    display: flex;
+    justify-content: center;
+    padding-left: 104px;
+    padding-right: 104px;
+
+}
+
+.chest {
+    padding-bottom: 96px;
+}
+.st2 {
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.commentedimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color:#1f2937;
+    
+}
+
+.pic {
+    width: 96px;
+    height: 96px;
+    border-radius: 15%;
+    border-color:#3882F6;
+    border-style: solid;
+ 
+}
+
+.comment {
+    padding-top: 24px;
+}
+
+.leg {
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.callbox {
+    display: flex;
+  
+    background-color: #3882F6;
+    border-radius: 2%;
+    padding: 48px;
+    justify-content: space-around;
+}
+
+.telephone {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color:#E5E5EB;
+    padding-right: 16px;
 }
